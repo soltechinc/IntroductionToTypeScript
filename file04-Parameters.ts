@@ -1,4 +1,4 @@
-﻿function Welcome(firstName: string, lastName: string) {
+﻿function Welcome(firstName: string, lastName?: string) {
     var s: string = "Hello, " + firstName;
     if (lastName) {
         s += " " + lastName;
